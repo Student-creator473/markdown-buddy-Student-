@@ -1,0 +1,52 @@
+---
+title: "Script Documentation"
+author: "Monika"
+date: "July 2026"
+output: html_document
+---
+
+# Purpose
+
+This R script demonstrates a basic data analysis workflow. It imports a dataset, performs simple data cleaning, summarizes the data, and creates basic visualizations. The script is intended for learning purposes and follows R Markdown best practices.
+
+# Inputs
+
+- CSV data file
+- R programming language
+- Required packages:
+  - tidyverse
+  - ggplot2
+
+# Outputs
+
+- Cleaned dataset
+- Summary statistics
+- Basic charts
+- HTML report after knitting
+
+# Required Packages
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+# Example Code
+
+```{r}
+data <- read.csv("data.csv")
+
+head(data)
+
+summary(data)
+```
+
+# Notes
+
+- Ensure all required packages are installed.
+- Verify the dataset path before running the script.
+- Review the output for accuracy.
+
+# Conclusion
+
+This R Markdown document provides clear documentation for an R script, including its purpose, inputs, outputs, and example code. It is designed to improve readability and maintainability.
